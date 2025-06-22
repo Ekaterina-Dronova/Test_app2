@@ -11,10 +11,16 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "iphone.homebutton")
+                .padding(.bottom, 3.0)
                 .imageScale(.large)
                 .foregroundStyle(.brown)
             Text("Hello, commit!")
-            ColorPicker(/*@START_MENU_TOKEN@*/"Title"/*@END_MENU_TOKEN@*/, selection: /*@START_MENU_TOKEN@*/.constant(.red)/*@END_MENU_TOKEN@*/)
+            Button("Click me") {
+                
+            }
+            .padding(.top, 7.0)
+           
+
         }
         .padding()
     }
