@@ -13,10 +13,7 @@ struct ContentView: View {
             Image(systemName: "iphone.homebutton")
                 .imageScale(.large)
                 .foregroundStyle(.brown)
-            Image(systemName: "iphone.homebutton")
-                .imageScale(.large)
-                .foregroundStyle(.brown)
-            Text("Hello, world!")
+            Text("Hello, commit!")
             ColorPicker(/*@START_MENU_TOKEN@*/"Title"/*@END_MENU_TOKEN@*/, selection: /*@START_MENU_TOKEN@*/.constant(.red)/*@END_MENU_TOKEN@*/)
         }
         .padding()
